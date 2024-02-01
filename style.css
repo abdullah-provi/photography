@@ -58,8 +58,8 @@ button a{
 
 button:hover{
     border: none;
-    color: white;
-    background-color: ;
+    color:white;
+    
     transform: scale(1.1);
     transition: transform 1s ease-in-out;
     }
@@ -67,112 +67,206 @@ button:hover{
     /* -------container-1--- */
 
     .container {
-        width: 1519px;
-        height: 700px;
-        background-repeat: no-repeat;
-        
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
+    width: 1519px;
+    height: 700px;
+    background-repeat: no-repeat;
+    
+     background-position: center;
+    background-size: cover;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    
           }
-          h1{
-          font-size: 80px;
-          font-family: Arial, Helvetica, sans-serif;
+    h1{
+        font-size: 80px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    
+    
+    p{
+    font-family: 'Nunito Sans', sans-serif;
+    display: block;
+    font-size: 18px;
+    color: white;
           }
-      
-         p{
-          font-family: Arial, Helvetica, sans-serif;
-          display: block;
-          font-size: 18px;
-          color: #9b9b9b;
+     .container .child-1{
+    display: flex;
+     flex-direction: column;
+    gap: 15px;
+           
           }
-         .container .child-1{
-          
-           display: flex;
-           flex-direction: column;
-           gap: 15px;
-          }
-        .button-1 {
-            position: relative;
-            display: inline-block;
-            text-align: center;
-            padding-left: 12px;
+     .container .button{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding-left: 12px;
+            
         }
+        
       
-       
-       
       
-      .container button:hover{
+    .container button:hover{
           
-        background-color: cadetblue;
-          transform: scale(1.1);
-          transition: transform 1s ease-in-out;
+    background-color: cadetblue;
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+          
           }
           
           
           /* ---------container-2------- */
 
-          .container-1{
+          
+          .container-2{
             display: flex;
             justify-content: center;
             align-items: center;
-        
-            
-        }
-        .box-1{
-                display: flex;
-                flex-direction: column;
-                /* padding-right:10%; */
-                gap: 20px;
-                /* padding-left: 200px; */
-                font-family:'Poppins', sans-serif ;
-                color: #3A3A3A;
-                
-        
-                     
+            padding: 60px;
+            background-color: white;
             }
-        .box-1 h1{
-                font-size: 52px;
-                font-family:'Poppins', sans-serif ;
-                color: #3A3A3A;
-        
+            ul li{
+                padding: 5px;
+                list-style: none;
+                margin-bottom: 5px;
+                color: #555;
+                font-size: 15px;
+                font-family: 'Nunito Sans', sans-serif;
             }
-        .box-1 p{
-                font-size: 16px;
-                
-             }
-            
-        .box-1 button  {
-                width: 180px;
-                height: 44px; 
-                margin-bottom: 20px;
-                background-color: #E02C6D;
-                border: none;
-                border-radius: 25px;
-                color: white;
-                font-size: 16px;
-                font-family: 'Poppins', sans-serif ;
-        
-                
-            
+        .section-4{
+            padding-bottom: 105px;
             }
-        
-        .box-2 img{ 
-            width: 440px;
-            height: 414px;
-            margin-top: 50px;
+        .section-1{
             display: flex;
             justify-content: center;
-            padding-left: 25%;
+            align-items: center;
+            column-gap: 72px;
+            }
+        .section-2-left-part{
+            width: 400px;
+            }
+        .section-5-left-part img{
+            width: 400px;
+            }
+        .section-5-left-part img:hover{
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+            }
+        .section-5-left-part img{
+            transition: transform 0.3s ease-in-out;
+            }
+        .section-2-right-part{
+            width: 654px;
+
+            }
+        .section-2-right-part h2{
+            font-size: 35px;
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        .section-3{
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: 700px;
+            font-size: 50px;
+            line-height: 54px;
+            color: #151515;
+            padding-bottom: 17px;
+        }
+        .section-4-4-description{
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: 400px;
+            font-size: 15px;
+            line-height: 1.5;
+            color: #868e96;
+            padding-bottom: 30px;
+            }
+        a.link-button{
+           
             
-        }
-        .container-2 h2{
-            font-size: 28px;
-            font-family: 'Poppins', sans-serif;
-            color:#3A3A3A ;
-            text-align: center;
-        
-        }
+            text-decoration: none;
+            color: black;
+            border: 2px solid #333;
+            font-size: 15px;
+            padding: 12px 35px;
+            font-family:'Nunito Sans', sans-serif;
+            font-weight: 700px;
+            border-radius: 50px;
+            display: inline-block;
+            margin-top: 10px;
+            
+            
+            }
+        a.link-button:hover{
+           background-color: #333;
+           color: white;
+          
+           
+            }
+           
+/* --------container-3----/ */
+
+.child-3{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 70px;
+    text-align: center;
+    color: #13103A;
+    padding-bottom: 48px;
+    background-color: rgb(215, 215, 215, 0.17);
+}
+
+h2{
+     display: block;
+    font-size: 1.5em;
+    /* margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    font-weight: bold;
+}
+/* -------container-4---- */
+.container-4{
+    background-color: rgb(215, 215, 215, 0.17);
+    
+}
+
+section.section-2{
+    padding-bottom: 60px;
+}
+
+.section-2-flex {
+    display: flex;
+    justify-content: center;
+    column-gap: 37px;
+}
+.section-2-box{
+    width: 360px;
+    height: 376px;
+    color: #555;
+   
+}
+.box-padding p{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #555;
+}
+
+.box-padding {
+    padding-top: 25px;
+    padding-left: 32px;
+}
+
+.box-1-color{
+    background-color: white;
+}
+.box-2-color{
+    background-color: #ff59591a;
+}
+.box-3-color{
+    background-color: #FFF4D6;
+}
+.section-2-box img{
+    width: 50px;
+    height: 50px;
+    padding-bottom: 12px;
+}
