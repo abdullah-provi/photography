@@ -294,6 +294,11 @@ h2 {
 
 }
 
+.section-2-flex :hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
 .section-2-box {
     width: 300px;
     height: 300px;
