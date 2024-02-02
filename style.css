@@ -294,7 +294,7 @@ h2 {
 
 }
 
-.section-2-flex :hover{
+.section-2-flex :hover {
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
 }
@@ -415,7 +415,8 @@ h2 {
     transition: transform 0.3s ease-in-out;
 
 }
-.album{
+
+.album {
     transition: transform 0.3s ease-in-out;
 }
 
@@ -431,11 +432,57 @@ h2 {
 
 .photo img {
     width: 100%;
+
 }
 
 /* --------container-6------- */
 
 
+.container-6 {
+    padding: 5%;
+    background-color: rgb(215, 215, 215, 0.17);
+    
 
+}
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 5% 5% 5% 5%;
+    
 
+}
+.child-3 h2{
+    color: #505060;
+    font-size: 35px;
+    font-family:'Nunito Sans', sans-serif ;
+    
+}
 
+.box-logo p{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #5f5f5f;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.box-logo {
+    padding-top: 25px;
+    padding-left: 32px;
+    height: px;
+   
+    
+}
+.box-logo img{
+    width: 100px;
+    height: 30px;
+}
+
+ 
+
+.icons a {
+    color: orange;
+}
