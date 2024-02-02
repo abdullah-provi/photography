@@ -53,11 +53,11 @@ nav .icons a {
     border: 1px solid grey;
     border-radius: 50px;
     margin: 5px;
-    
-       
+
+
 }
 
- 
+
 
 button {
 
@@ -67,7 +67,7 @@ button {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 50px;
-    
+
 }
 
 button a {
@@ -79,7 +79,6 @@ button a {
 button:hover {
     border: none;
     color: white;
-
     transform: scale(1.1);
     transition: transform 1s ease-in-out;
 }
@@ -266,7 +265,7 @@ h2 {
 }
 
 
-.container-4 {
+.container-3 {
     background-color: rgb(215, 215, 215, 0.17);
     align-content: center;
     display: flex;
@@ -278,7 +277,7 @@ h2 {
 }
 
 
-section.section-2 {
+.section.section-2 {
     padding-bottom: 60px;
 }
 
@@ -366,3 +365,72 @@ section.section-2 {
     height: 50px;
     padding-bottom: 12px;
 }
+
+/* -------container-4------- */
+
+.container-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5% 5% 5% 5%;
+}
+
+.container-4 h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #3a3a3ad8;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/* ------container-5- */
+
+.container-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    /* width: 100%; */
+
+
+}
+
+.album {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+
+}
+
+.album:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+
+}
+.album{
+    transition: transform 0.3s ease-in-out;
+}
+
+.photo {
+    display: flex;
+
+    width: 80%;
+
+
+}
+
+
+
+.photo img {
+    width: 100%;
+}
+
+/* --------container-6------- */
+
+
+
+
+
