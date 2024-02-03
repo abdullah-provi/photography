@@ -105,7 +105,7 @@ h1 {
 }
 
 
-p {
+.child-1 p {
     font-family: 'Nunito Sans', sans-serif;
     display: block;
     font-size: 18px;
@@ -289,9 +289,6 @@ h2 {
     flex-wrap: wrap;
     gap: 25px;
     padding: 5% 5% 5% 5%;
-
-
-
 }
 
 .section-2-flex :hover {
@@ -399,7 +396,7 @@ h2 {
     flex-wrap: wrap;
     /* width: 100%; */
     padding: 5%;
-   
+
 
 
 
@@ -492,4 +489,228 @@ h2 {
 
 .icons a {
     color: orange;
+}
+
+/* ------c0ntainer-7------ */
+
+.container-7 {
+
+    background-color: white;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5% 5% 5% 5%;
+
+}
+
+.write {
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700px;
+    font-size: 30px;
+    text-align: center;
+    color: #13103A;
+}
+
+.write h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #505060;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.photos-box h4 {
+    padding: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    color: #212529;
+
+}
+
+.photos-box h5 {
+    padding: 5% 5% 5% 5%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    color: #212529;
+
+}
+
+h5 a {
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #7d6ee7;
+    letter-spacing: 0.5px;
+}
+
+.photos-box {
+    width: 300px;
+    padding-left: 13px;
+    padding-right: 12px;
+    margin-bottom: 30px;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #7d6ee7;
+    font-weight: 900;
+}
+
+.photos-box img {
+    width: 300px;
+
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.container-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    gap: 25px;
+    padding: 5% 5% 5% 5%;
+}
+
+.another-box-1 {
+    background-color: rgb(215, 215, 215, 0.17);
+    padding: 2% 2% 2% 2%;
+}
+
+.another-box-2 {
+    background-color: rgb(215, 215, 215, 0.17);
+    padding: 2% 2% 2% 2%;
+}
+
+.another-box-3 {
+    background-color: rgb(215, 215, 215, 0.17);
+    padding: 2% 2% 2% 2%;
+}
+
+/* <!--------container-8--------> */
+
+
+.container-6 {
+    padding: 5%;
+    background-color: rgb(215, 215, 215, 0.17);
+
+
+
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+
+}
+
+.child-3 h2 {
+    color: #505060;
+    font-size: 35px;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.box-logo img {
+    width: 150px;
+    height: 70px;
+
+
+}
+
+/* --------container-9------- */
+
+.container-9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #212529;
+    
+}
+
+.section-4 {
+    padding-bottom: 105px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 72px;
+}
+
+.section-2-left-part {
+    width: 400px;
+}
+
+.section-5-left-part input {
+    width: 300px;
+    height: 40px;
+
+
+}
+
+.section-2-right-part {
+    width: 654px;
+}
+
+.section-3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 54px;
+    color: white;
+    padding-bottom: 17px;
+}
+
+.section-4-4-description {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.section-5-left-part input {
+    padding-left: 10px;
+    border-radius: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+}
+
+.section-5-left-part .click {
+
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    background-color: #7d6ee7;
+}
+
+.section-5-left-part .click:hover {
+    background-color: orange;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.section-5-left-part .click {
+    transition: transform 0.3s ease-in-out;
+}
+
+
+/* ---------- */
+.all-discription {
+    background-color: #212529;
 }
